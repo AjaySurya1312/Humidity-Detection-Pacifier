@@ -1,0 +1,28 @@
+COMPENENTS REQUIRED :
+ - Arduino UNO / Mega
+ - DHT22 Sensor
+ - Red LED (Low Hydration Indicator)
+ - Yellow LED (Moderate Hydration Indicator)
+ - Green LED (Good Hydration Indicator)
+ - 220Ω Resistors (3x for LEDs)
+ - Breadboard
+ - Jumper Wires
+
+
+PIN CONNECTIONS :
+  DHT22 Sensor Pin Connections:
+    - VCC → 5V on Arduino
+    - GND → GND on Arduino
+    - Data Pin → Pin 2 on Arduino
+
+  LED Pin Connections:
+    Red LED:
+      - Anode (+) → Pin 5 on Arduino
+      - Cathode (–) → GND (with 220Ω resistor)
+    Yellow LED:
+      - Anode (+) → Pin 6 on Arduino
+      - Cathode (–) → GND (with 220Ω resistor)
+    Green LED:
+      - Anode (+) → Pin 7 on Arduino
+      - Cathode (–) → GND (with 220Ω resistor)
+
