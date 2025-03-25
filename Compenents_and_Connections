@@ -1,4 +1,4 @@
-COMPENENTS REQUIRED :
+#COMPENENTS REQUIRED :
  - Arduino UNO / Mega
  - DHT22 Sensor
  - Red LED (Low Hydration Indicator)
@@ -9,7 +9,7 @@ COMPENENTS REQUIRED :
  - Jumper Wires
 
 
-PIN CONNECTIONS :
+#PIN CONNECTIONS :
   DHT22 Sensor Pin Connections:
     - VCC → 5V on Arduino
     - GND → GND on Arduino
